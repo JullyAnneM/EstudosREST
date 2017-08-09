@@ -2,10 +2,8 @@ package helloworld;
 
 import javax.persistence.*;
 
-@Entity
 public class Pessoa {
 	
-	@Id
 	private int rg;
 	private String nome;
 	
